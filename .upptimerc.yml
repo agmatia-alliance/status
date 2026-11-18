@@ -14,8 +14,14 @@ status-website:
   cname: status.agmatia.org
   # baseUrl: /your-repo-name
   logoUrl: https://agmatia.org/logos/nexus-symbol-light.svg
+  faviconSvg: https://agmatia.org/logos/nexus-symbol-light.svg
   name: Agmatia Alliance Status
-  theme: dark
+  themeUrl: https://status.agmatia.org/agmatia-theme.css
+  metaTags:
+    - name: color-scheme
+      content: dark
+    - name: theme-color
+      content: "#000000"
   navbar:
     - title: Status
       href: /
